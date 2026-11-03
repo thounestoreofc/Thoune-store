@@ -1,0 +1,12 @@
+THOUNE STORE v1172A — AJUSTES VISUAIS E DE SEPARAÇÃO
+
+1. Substitua os arquivos do site pelos arquivos deste ZIP mantendo todos os arquivos de imagens na raiz.
+2. index.html agora usa a abertura original com imagem de Halloween, painel flutuante e morcegos; as duas opções levam às lojas corretas.
+3. ftf.html e mm2.html não repetem a abertura depois da escolha.
+4. MM2 não mostra filtros/ícones de eventos FTF e tem suas próprias categorias/cores de raridade. Os eventos e imagens continuam na loja FTF.
+5. O painel administrativo continua único; escolha o jogo no formulário de produto para carregar as raridades próprias.
+6. As avaliações continuam compartilhadas/globalmente visíveis, e o checkout/carrinho mantém o sistema existente; o carrinho de cada jogo segue separado para impedir mistura de lojas.
+
+SQL: não há uma migração nova nesta versão. Execute uma única vez o arquivo supabase_v1172_dual_store.sql que acompanha o ZIP v1172. O conteúdo integral está no chat do usuário; não execute novamente se já executou com sucesso.
+
+IMPORTANTE: não foi possível testar contra o projeto Supabase real nesta sessão. Faça backup e teste a criação de pedido em ambiente controlado antes de abrir a loja MM2.

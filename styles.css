@@ -9451,3 +9451,43 @@ svg.thoune-bat,
 }
 @keyframes thoune-atualizacao-chroma{0%{background-position:0% 50%;filter:hue-rotate(0deg)}50%{background-position:150% 50%;filter:hue-rotate(90deg)}100%{background-position:300% 50%;filter:hue-rotate(360deg)}}
 @media(prefers-reduced-motion:reduce){#product-grid .rarity-atualizacao{animation:none!important;background-position:50% 0!important}}
+
+
+/* v1172a — identidade das raridades de Murder Mystery 2, sem alterar FTF */
+body.mm2-store #product-grid .rarity-godly{color:#ff7186!important;background:rgba(233,75,99,.15)!important;border-color:rgba(233,75,99,.5)!important}
+body.mm2-store #product-grid .rarity-ancient{color:#c5a4ff!important;background:rgba(164,119,237,.15)!important;border-color:rgba(164,119,237,.48)!important}
+body.mm2-store #product-grid .rarity-chroma{color:#fff!important;background:linear-gradient(110deg,#ff3d7f,#ffb52e,#fff34d,#39e879,#32d9ff,#8c52ff,#ff3d7f)!important;background-size:300% 100%!important;border-color:rgba(255,255,255,.7)!important;animation:thoune-atualizacao-chroma 2.4s linear infinite!important}
+body.mm2-store #product-grid .rarity-vintage{color:#e7ca7c!important;background:rgba(201,166,90,.15)!important;border-color:rgba(201,166,90,.5)!important}
+body.mm2-store #product-grid .rarity-unique{color:#fff078!important;background:rgba(241,223,85,.13)!important;border-color:rgba(241,223,85,.45)!important}
+body.mm2-store #product-grid .rarity-legendary{color:#ffb36d!important;background:rgba(239,140,66,.14)!important;border-color:rgba(239,140,66,.45)!important}
+body.mm2-store #product-grid .rarity-rare{color:#75c5ff!important;background:rgba(65,155,255,.12)!important;border-color:rgba(95,175,255,.34)!important}
+body.mm2-store #product-grid .rarity-uncommon{color:#72d69a!important;background:rgba(75,205,125,.12)!important;border-color:rgba(75,205,125,.32)!important}
+body.mm2-store #product-grid .rarity-common{color:#d2d7dc!important;background:rgba(141,150,159,.12)!important;border-color:rgba(141,150,159,.35)!important}
+body.mm2-store #product-grid .rarity-seasonal{color:#7de8dc!important;background:rgba(69,199,187,.12)!important;border-color:rgba(69,199,187,.4)!important}
+@media(prefers-reduced-motion:reduce){body.mm2-store #product-grid .rarity-chroma{animation:none!important}}
+
+/* THOUNE STORE v1173 — MIDNIGHT OCEAN + BRAND */
+:root{--thoune-bg:#0b1424;--thoune-surface:#121f33;--thoune-surface-2:#192b43;--thoune-border:rgba(139,184,226,.17);--thoune-blue:#328bd0;--thoune-blue-light:#83c5f4;--thoune-text:#edf5ff;--thoune-muted:#9aacc2}
+html{background:#0b1424;scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 50% -18%,rgba(45,117,177,.17),transparent 48%),#0b1424!important;color:var(--thoune-text)}
+.site-header{background:rgba(11,20,36,.94)!important;border-bottom:1px solid var(--thoune-border)!important;box-shadow:0 10px 34px rgba(0,0,0,.22)!important;backdrop-filter:blur(18px)}
+.thoune-logo-brand{width:clamp(128px,17vw,190px)!important;height:52px!important;display:flex!important;align-items:center!important;justify-content:center!important;overflow:visible!important;background:transparent!important;border:0!important;box-shadow:none!important}
+.thoune-logo-brand img{width:100%!important;height:100%!important;object-fit:contain!important;display:block!important}
+.thoune-choice-logo{width:min(390px,82vw)!important;height:auto!important;background:transparent!important;border:0!important;box-shadow:none!important}
+.thoune-choice-logo img{width:100%!important;height:auto!important;object-fit:contain!important}
+.brand-text{display:none!important}
+.product-card{background:linear-gradient(155deg,#172840 0%,#111e31 100%)!important;border:1px solid var(--thoune-border)!important;border-radius:17px!important;box-shadow:0 9px 26px rgba(0,0,0,.18)!important;transition:transform .28s cubic-bezier(.2,.75,.25,1),border-color .28s ease,box-shadow .28s ease!important;overflow:hidden}
+.product-card:hover{transform:translateY(-5px)!important;border-color:rgba(103,177,235,.48)!important;box-shadow:0 16px 34px rgba(0,0,0,.28),0 0 0 1px rgba(66,151,213,.08)!important}
+.product-image img{transition:transform .42s cubic-bezier(.2,.75,.25,1),filter .42s ease!important}
+.product-card:hover .product-image img{transform:scale(1.045) translateY(-2px);filter:drop-shadow(0 8px 13px rgba(61,147,211,.16))}
+.admin-page{background:radial-gradient(ellipse at 50% -15%,rgba(45,117,177,.16),transparent 48%),#0b1424!important;color:#edf5ff!important}
+.admin-game-picker{margin:22px 0 28px;padding:22px;border:1px solid rgba(139,184,226,.17);border-radius:20px;background:linear-gradient(145deg,rgba(20,37,59,.96),rgba(13,26,43,.96))}
+.admin-game-picker-heading h2{margin:5px 0 7px;color:#f1f7ff}.admin-game-picker-heading p:last-child{margin:0;color:#9aacc2}
+.admin-game-picker-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}
+.admin-game-tile{display:flex;flex-direction:column;align-items:flex-start;gap:9px;text-align:left;min-height:178px;padding:20px;border:1px solid rgba(139,184,226,.19);border-radius:16px;background:linear-gradient(145deg,#1a304b,#122238);color:#edf5ff;cursor:pointer;transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease}
+.admin-game-tile:hover{transform:translateY(-3px);border-color:rgba(112,190,245,.58);box-shadow:0 12px 28px rgba(0,0,0,.22),0 0 22px rgba(50,139,208,.10)}
+.admin-game-tile-kicker{font-size:.68rem;letter-spacing:.13em;font-weight:800;color:#83c5f4}.admin-game-tile strong{font-size:1.22rem;letter-spacing:-.025em}
+.admin-game-tile>span:nth-of-type(2){color:#a9bbd0;font-size:.9rem;line-height:1.45}.admin-game-tile-action{margin-top:auto;color:#8bcaff;font-weight:700;font-size:.88rem}
+@media(max-width:640px){.admin-game-picker{padding:16px}.admin-game-picker-grid{grid-template-columns:1fr}.admin-game-tile{min-height:145px}.thoune-logo-brand{width:116px!important;height:44px!important}}
+@media(hover:none){.product-card:hover{transform:none!important}.product-card:hover .product-image img{transform:none;filter:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}

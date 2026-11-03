@@ -1,0 +1,19 @@
+THOUNE STORE v1173 — LOGO E PAINEL ORGANIZADO
+
+Base: ThouneStore-v1172a-abertura-halloween-lojas-separadas.zip.
+
+Incluído:
+- Logo final aplicada na tela de escolha e nos cabeçalhos das duas lojas.
+- Tema Midnight Ocean com fundo escuro, superfícies azul-noite e detalhes azuis.
+- Refinamento dos cards e animação sutil das imagens no hover.
+- Dois atalhos no painel administrativo: Flee the Facility e Murder Mystery 2.
+- Cada atalho abre o editor de produtos existente com o filtro do jogo escolhido.
+
+Preservação:
+- Nenhum produto, preço, imagem ou registro de catálogo foi alterado.
+- Nenhum arquivo de ícone de evento foi alterado.
+- Nenhum SQL, tabela, política, RPC ou dado Supabase foi alterado.
+- Pedidos, pagamentos, estoque e entrega mantêm a lógica da versão-base.
+
+Não há SQL novo para executar nesta etapa. As migrações originais foram mantidas sem alterações.
+Teste em homologação antes de publicar.

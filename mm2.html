@@ -8,8 +8,8 @@
     content="Thoune Store — itens para Murder Mystery 2."
   >
 
-  <meta name="theme-color" content="#082c3a">
-  <meta name="thoune-version" content="v1172-dual-store">
+  <meta name="theme-color" content="#0b1424">
+  <meta name="thoune-version" content="v1173-midnight-ocean">
 
   <title>Thoune Store — Murder Mystery 2</title>
 
@@ -31,7 +31,7 @@
 
   <link
     rel="stylesheet"
-    href="./styles.css?v=1143"
+    href="./styles.css?v=1173"
   >
 
   <style id="thoune-checkout-polish-v1143">
@@ -91,28 +91,11 @@
 
     
 
-<style>[data-ftf-only]{display:none!important}</style>
+
 </head>
 
-<body data-game="mm2">
-
-  <!-- Abertura de boas-vindas Thoune Store -->
-  <div id="thoune-welcome" class="thoune-welcome" role="status" aria-label="Bem-vindo à Thoune Store">
-    <div class="welcome-bubbles" aria-hidden="true">
-      <span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span><span>🦇</span>
-    </div>
-    <div class="welcome-content">
-      <div class="welcome-mark welcome-logo-mark"><img src="thoune-halloween-welcome.png" alt="Snoopy com fantasia de Halloween diante da lua cheia"></div>
-      <p class="welcome-kicker">MURDER MYSTERY 2</p>
-      <h1>Thoune <span>Store</span></h1>
-      <p class="welcome-subtitle" id="welcome-subtitle" aria-live="polite">Sua coleção se completa aqui.</p>
-      <div class="welcome-loader"><span></span></div>
-      <button id="welcome-skip" type="button">Entrar na loja <span aria-hidden="true">→</span></button>
-    </div>
-  </div>
-
-
-  <!-- =====================================================
+<body data-game="mm2" class="mm2-store">
+<!-- =====================================================
        EFEITO DE ABERTURA
   ====================================================== -->
 
@@ -158,17 +141,7 @@
       aria-label="Thoune Store - início"
     >
 
-      <span class="brand-mark">
-        <img
-          src="snoopy-banner.jpg"
-          alt="Snoopy da identidade da Thoune Store"
-        >
-      </span>
-
-      <span class="brand-text">
-        <strong>Thoune Store</strong>
-        <small>Murder Mystery 2</small>
-      </span>
+      <span class="brand-mark thoune-logo-brand"><img src="thoune-logo.png" alt="Thoune Store"></span>
 
     </a>
 
@@ -298,19 +271,19 @@
 
 
         <p class="eyebrow">
-          THOUNE STORE · FLEE THE FACILITY
+          THOUNE STORE · MURDER MYSTERY 2
         </p>
 
 
         <h1>
-          Encontre a item
+          Encontre o item
           <br>
           <em>que combina com você.</em>
         </h1>
 
 
         <p class="hero-subtitle">
-          Facas, armas e itens de Murder Mystery 2 para você escolher com tranquilidade.
+          Facas, armas e itens de Murder Mystery 2 organizados por raridade, prontos para você escolher.
         </p>
 
 
@@ -384,7 +357,7 @@
           </strong>
 
           <p>
-            Eu mesmo realizo as entregas, por ordem dos pedidos.
+            As entregas dos itens de Murder Mystery 2 são organizadas por ordem dos pedidos.
           </p>
         </div>
 
@@ -502,21 +475,6 @@
             <button type="button" data-sort-value="popular" class="sort-option active"><span>✦</span><span><strong>Mais populares</strong><small>Em destaque na loja</small></span></button>
             <button type="button" data-sort-value="low" class="sort-option"><span>↓</span><span><strong>Menor preço</strong><small>Do menor para o maior</small></span></button>
             <button type="button" data-sort-value="high" class="sort-option"><span>↑</span><span><strong>Maior preço</strong><small>Do maior para o menor</small></span></button>
-            <div class="event-sort-divider" data-ftf-only>FILTRAR POR EVENTO</div>
-            <div class="event-filter-grid" data-ftf-only>
-            <button type="button" data-event-filter="" class="sort-option event-filter-option active" title="Todos os eventos" aria-label="Todos os eventos"><span>✦</span><span><strong>Todos os eventos</strong><small>Remover filtro de evento</small></span></button>
-            <button type="button" data-event-filter="anniversary" class="sort-option event-filter-option" title="Aniversário" aria-label="Filtrar por Aniversário"><span><img src="anniversary.png" alt=""></span><span><strong class="event-filter-name">Aniversário</strong><small>Mostrar apenas Aniversário</small></span></button>
-            <button type="button" data-event-filter="autumn" class="sort-option event-filter-option" title="Outono" aria-label="Filtrar por Outono"><span><img src="autumn.png" alt=""></span><span><strong class="event-filter-name">Outono</strong><small>Mostrar apenas Outono</small></span></button>
-            <button type="button" data-event-filter="christmas" class="sort-option event-filter-option" title="Natal" aria-label="Filtrar por Natal"><span><img src="christmas.png" alt=""></span><span><strong class="event-filter-name">Natal</strong><small>Mostrar apenas Natal</small></span></button>
-            <button type="button" data-event-filter="clover" class="sort-option event-filter-option" title="Clover" aria-label="Filtrar por Clover"><span><img src="clover.png" alt=""></span><span><strong class="event-filter-name">Clover</strong><small>Mostrar apenas Clover</small></span></button>
-            <button type="button" data-event-filter="easter" class="sort-option event-filter-option" title="Páscoa" aria-label="Filtrar por Páscoa"><span><img src="easter.png" alt=""></span><span><strong class="event-filter-name">Páscoa</strong><small>Mostrar apenas Páscoa</small></span></button>
-            <button type="button" data-event-filter="halloween" class="sort-option event-filter-option" title="Halloween" aria-label="Filtrar por Halloween"><span><img src="halloween.png" alt=""></span><span><strong class="event-filter-name">Halloween</strong><small>Mostrar apenas Halloween</small></span></button>
-            <button type="button" data-event-filter="lunar" class="sort-option event-filter-option" title="Lunar" aria-label="Filtrar por Lunar"><span><img src="lunar.png" alt=""></span><span><strong class="event-filter-name">Lunar</strong><small>Mostrar apenas Lunar</small></span></button>
-            <button type="button" data-event-filter="spring" class="sort-option event-filter-option" title="Primavera" aria-label="Filtrar por Primavera"><span><img src="spring.png" alt=""></span><span><strong class="event-filter-name">Primavera</strong><small>Mostrar apenas Primavera</small></span></button>
-            <button type="button" data-event-filter="summer" class="sort-option event-filter-option" title="Verão" aria-label="Filtrar por Verão"><span><img src="summer.png" alt=""></span><span><strong class="event-filter-name">Verão</strong><small>Mostrar apenas Verão</small></span></button>
-            <button type="button" data-event-filter="valentines" class="sort-option event-filter-option" title="Dia dos Namorados" aria-label="Filtrar por Dia dos Namorados"><span><img src="valentines.png" alt=""></span><span><strong class="event-filter-name">Dia dos Namorados</strong><small>Mostrar apenas Dia dos Namorados</small></span></button>
-          </div>
-          </div>
         </div>
 
 
@@ -527,72 +485,22 @@
 
       <!-- CATEGORIAS -->
 
-      <div
-        class="category-row"
-        id="category-row"
-        aria-label="Categorias"
-      >
-
-        <button
-          type="button"
-          class="category active"
-          data-category="Todas"
-        >
-          Todas
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Godly"
-        >
-          Lendária
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Ancient"
-        >
-          Épica
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Rare"
-        >
-          Rara
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Common"
-        >
-          Comum
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Chroma"
-        >
-          Exclusiva
-        </button>
-
-        <button
-          type="button"
-          class="category"
-          data-category="Seasonal"
-        >
-          Atualização
-        </button>
-
+      <div class="category-row" id="category-row" aria-label="Categorias">
+        <button type="button" class="category active" data-category="Todas">Todas</button>
+        <button type="button" class="category" data-category="Godly">Godly</button>
+        <button type="button" class="category" data-category="Ancient">Ancient</button>
+        <button type="button" class="category" data-category="Chroma">Chroma</button>
+        <button type="button" class="category" data-category="Vintage">Vintage</button>
+        <button type="button" class="category" data-category="Unique">Unique</button>
+        <button type="button" class="category" data-category="Legendary">Legendary</button>
+        <button type="button" class="category" data-category="Rare">Rare</button>
+        <button type="button" class="category" data-category="Uncommon">Uncommon</button>
+        <button type="button" class="category" data-category="Common">Common</button>
+        <button type="button" class="category" data-category="Seasonal">Seasonal</button>
       </div>
 
 
-      <!-- PRODUTOS -->
+            <!-- PRODUTOS -->
 
       <div
         class="product-grid"
@@ -1453,7 +1361,7 @@
 
   <script
     type="module"
-    src="./app.js?v=1172"
+    src="./app.js?v=1172a"
   ></script>
 
   <script>
